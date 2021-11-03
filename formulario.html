@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width_device-width,initial-scale-1.0">
+	<title>Nombre de la empresa</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="logo11.png">
+			</div>
+			<a class="btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<h1>NOMBRE DE LA EMPRESA</h1>
+		    <div class="menu">
+	 	        <a href="index.html">Servicios y Productos</a>
+		        <a href="nosotros.html">Nosotros </a>
+                <a href="equipo.html">Equipo </a>
+                <a href="clientes.html">Clientes </a>
+                <a href="noticias.html">Noticias/Fotos/Videos </a>
+                <a href="contacto.html">Contacto </a>
+                <a href="home.html">Home </a>
+                <a href="formulario.html">Formulario </a>
+
+ 	        </div>			
+		</nav>
+	</header>
+	<section>
+		<h2>Solicitud de proyecto</h2>
+ <div class="container"></div>
+	<form>
+		<div class="fila">
+			<div class="col-25">
+			<label>Nombre: </label>
+			</div>
+			<div class="col-75">
+				<input type="text" name="nom" placeholder="escribe tu nombre">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Correo </label>
+			</div>
+			<div class="col-75">
+				<input type="email" name="correo" placeholder="escribe tu correo">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Pais: </label>
+			</div>
+			<div class="col-75">
+				<select name="pais">
+					<option>Bolivia</option>
+					<option>Peru</option>
+					<option>Argentina</option>
+					<option>Brasil</option>
+					<option>Chile</option>
+					<option>Colombia</option>
+					<option>Ecuador</option>
+					<option>Guyana</option>
+					<option>Paraguay</option>
+					<option>Uruguay</option>
+					<option>Venezuela</option>
+				</select>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Tipo de proyecto</label>
+			</div>
+			<div class="col-75">
+				<textarea></textarea>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Comentarios </label>
+			</div>
+			<div class="col-75">
+				<textarea></textarea>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-50">
+			<input type="submit" name="enviar" value="enviar Formulario">
+			</div>
+			<div class="col-50">
+				<input type="reset" name="clear" value="limpiar Formulario">
+			</div>
+		</div>
+		
+	</form>
+	</div>
+</section>
+<footer>
+	<div class="pie">Derechos Reservados</div>
+</footer>
+ <script type="text/javascript">
+ 	   $(".btn").on("click",function(){
+ 	   	    $('.menu').toggleClass("show");
+ 	   });
+ </script>
+
+</body>
+</html>
